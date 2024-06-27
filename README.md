@@ -49,8 +49,8 @@ To learn more about SSMS, check out the [SQL Server Management Studio (SSMS)](ht
 ## Additional
 - File relative linking 
 ```
-       ![mymage](images/image.png)
-       ![allias](relative path)
+![mymage](images/image.png)
+![allias](relative path)
 ```
 
 ### Troubleshooting
