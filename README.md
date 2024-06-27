@@ -9,7 +9,7 @@ This bootcamp last for 6 weeks with a goal of learning the basic Model-View-Cont
  
  3. Download and Install .NET SDK. [Download here..](https://dotnet.microsoft.com/en-us/download)
 
- 4. To verify if you install it correctly, You should be able to the the following extensitions when you navigate to extensions.
+ 4. To verify if you install it correctly, You should be able to see the following extensitions when you navigate to extensions.
 
 ## Creating a new Console App or ASP.NET Core Web App(Model-View-Controller) MVC, Web
  1. Open Visual Studio Code
