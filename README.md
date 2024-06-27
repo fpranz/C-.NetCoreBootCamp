@@ -1,5 +1,5 @@
 # MVC BOOTCAMP - C# & .NET CORE
-This bootcamp last for 6 weeks with a goal of learning the basic `Model-View-Controller(MVC)` using `C#` and `.Net Core`.
+This bootcamp last for 6 weeks with a goal of learning the basic Model-View-Controller(MVC) using C# and .Net Core.
 
 # Getting Started
 ## Installation
@@ -11,7 +11,7 @@ This bootcamp last for 6 weeks with a goal of learning the basic `Model-View-Con
 
  4. To verify if you install it correctly, You should be able to the the following extensitions when you navigate to extensions.
 
-## Creating a new console app or 
+## Creating a new Console App or ASP.NET Core Web App(Model-View-Controller) MVC, Web
  1. Open Visual Studio Code
 
  2. Press `Control+Shift+P` and Select *.NET New Project*.
