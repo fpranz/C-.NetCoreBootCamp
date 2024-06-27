@@ -36,15 +36,15 @@ This bootcamp last for 6 weeks with a goal of learning the basic `Model-View-Con
 - [Bootswatch](https://bootswatch.com/default/)
 
 # Learn More
-- You can learn more in the [ASP.Net documentation](https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-8.0)
+You can learn more in the [ASP.Net documentation](https://learn.microsoft.com/en-us/aspnet/core/?view=aspnetcore-8.0)
 
-- To learn more about .Net, check out the [.Net documentation](https://learn.microsoft.com/en-us/dotnet/)
+To learn more about .Net, check out the [.Net documentation](https://learn.microsoft.com/en-us/dotnet/)
 
-- To learn more about C#, check out the [C# documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)
+To learn more about C#, check out the [C# documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)
 
-- To learn more about Bootswatch, check out the [Bootswatch](https://bootswatch.com/default/)
+To learn more about Bootswatch, check out the [Bootswatch](https://bootswatch.com/default/)
 
-- To learn more about SSMS, check out the [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)
+To learn more about SSMS, check out the [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16)
 
 ## Additional
 - File relative linking 
