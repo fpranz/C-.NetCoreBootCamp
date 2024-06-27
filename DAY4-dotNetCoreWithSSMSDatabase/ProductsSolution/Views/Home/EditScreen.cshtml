@@ -1,0 +1,31 @@
+@model ProductsSolution.AppModels.App;
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<div class="card border-primary mb-3" style="width: 100%">
+<div class="card-header">Add Product</div>
+<div class="card-body">
+    @using (Html.BeginForm("Save", "Home", FormMethod.Post, new { @name = "testForm" })){
+        
+        <fieldset>
+            <div class="row">
+                <label for="Name" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(model => model.NewProduct.Name, new { @class = "form-control", @id = "Name" })
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <label for="Price" class="col-sm-2 col-form-label">Price</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(model => model.NewProduct.Price, new { @class = "form-control", @id = "Price", @type = "number" })
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success" href=""><i class="icon-save"></i>  Save</button>
+
+        </fieldset>
+    }
+</div>
+</div>

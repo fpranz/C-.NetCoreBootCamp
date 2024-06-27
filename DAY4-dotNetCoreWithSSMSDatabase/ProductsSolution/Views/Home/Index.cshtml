@@ -1,0 +1,30 @@
+﻿@model ProductsSolution.AppModels.App;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="EditScreen">Add Product</a>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Product Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(ProductsSolution.Models.Product product in Model.Products){
+            <tr>
+                <td>
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@product.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
